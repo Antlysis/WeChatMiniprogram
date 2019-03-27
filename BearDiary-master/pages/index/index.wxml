@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- 用户 openid -->
+  <view class="userinfo">
+
+    <open-data type="userAvatarUrl"></open-data>
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+    >Click if it's you</button>
+    
+    <!-- <button 
+      open-type="getPhoneNumber" 
+      bindgetphonenumber="gtPhoneNumber"
+    >点击获取</button> -->
+  </view>
+
+  <map id="map" longitude="113.324520" latitude="23.099994" scale="10" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+</view>
