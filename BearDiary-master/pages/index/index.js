@@ -1,5 +1,6 @@
 var app = getApp()
 
+// first page
 Page({
   data: {
     markers: [{
