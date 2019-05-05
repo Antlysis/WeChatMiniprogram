@@ -1,12 +1,12 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/list/list",
     "pages/mine/mine",
     "pages/new/new",
     "pages/entry/entry"
   ],
-  "window":{
+  "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#39b5de",
     "navigationBarTitleText": "小熊の日记",
@@ -18,7 +18,7 @@
     "selectedColor": "#39b5de",
     "backgroundColor": "#ffffff",
     "borderStyle": "black",
-    "list":[
+    "list": [
       {
         "pagePath": "pages/list/list",
         "iconPath": "images/icons/mark.png",
@@ -33,5 +33,6 @@
       }
     ]
   },
-  "debug": true
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
 }
